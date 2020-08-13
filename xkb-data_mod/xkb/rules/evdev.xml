@@ -7761,5 +7761,17 @@
         </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>prog</name>
+        <description>Programming Symbols</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>prog:sym</name>
+          <description>Remap programming symbols.</description>
+        </configItem>
+      </option>
+    </group>
   </optionList>
 </xkbConfigRegistry>

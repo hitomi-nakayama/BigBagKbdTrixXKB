@@ -1174,6 +1174,7 @@
   lv5:caps_switch_lock_cancel     =       +level5(caps_switch_lock_cancel)
   lv5:lctl_switch_lock_cancel     =       +level5(lctl_switch_lock_cancel)
   parens:swap_brackets   =   +parens(swap_brackets)
+  prog:sym                        =       +prog(prog_sym)
 
 
 ! option	=	compat
