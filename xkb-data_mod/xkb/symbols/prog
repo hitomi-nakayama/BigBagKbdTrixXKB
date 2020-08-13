@@ -1,0 +1,28 @@
+partial modifier_keys
+xkb_symbols "prog_sym" {
+    key <AE01> { [            1,          at ] };
+    key <AE02> { [            2,      exclam ] };
+    key <AE03> { [            3,       equal ] };
+    key <AE04> { [            4,        plus ] };
+    key <AE05> { [            5,       minus ] };
+    key <AE06> { [            6, asciicircum ] };
+    key <AE07> { [            7,   ampersand ] };
+    key <AE08> { [            8,    asterisk ] };
+    key <AE09> { [            9,        less ] };
+    key <AE10> { [            0,     greater ] };
+    key <AE11> { [       dollar,     percent ] };
+    key <AE12> { [    backslash,         bar ] };
+
+    key <AD10> { [   apostrophe,    quotedbl ] };
+
+    key <AD11> { [        slash,    question ] };
+    key <AD12> { [  bracketleft,   braceleft ] };
+
+    key <AC11> { [   underscore,  numbersign ] };
+
+    key <BKSL> { [ bracketright,  braceright ] };
+
+    key <AB08> { [        comma,   parenleft ] };
+    key <AB09> { [       period,  parenright ] };
+    key <AB10> { [    semicolon,       colon ] };
+};
