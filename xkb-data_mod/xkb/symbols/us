@@ -488,8 +488,8 @@ xkb_symbols "dvorak-r" {
 };
 
 // Classic dvorak layout
-// by Piter Punk <piterpk@terra.com.br> - 2006-07-06 
-// Based on dvorak layout and e-mail from Russel L. Harris rlharris@oplink.net 
+// by Piter Punk <piterpk@terra.com.br> - 2006-07-06
+// Based on dvorak layout and e-mail from Russel L. Harris rlharris@oplink.net
 // on xorg list.
 partial alphanumeric_keys
 xkb_symbols "dvorak-classic" {
@@ -889,6 +889,19 @@ xkb_symbols "cmk_ed_dh" {
     name[Group1]= "English/Intl (Colemak[eD], Curl-DH ergo)";
 };
 
+// Colemak-Curl(DH) with built-in curl-z mod
+partial alphanumeric_keys
+xkb_symbols "cmk_ed_dh_curl_z" {
+    include "colemak(cmk_ed)"
+    include "colemak(cmk_ed_dh)"
+    key <AB01> { [             x,             X,              dagger,        doubledagger ] }; // QWE/Cmk X
+    key <AB02> { [             c,             C,           copyright,                cent ] }; // QWE/Cmk C
+    key <AB03> { [             d,             D,                 eth,                 ETH ] }; // QWE/Cmk B
+    key <AB04> { [             v,             V,            division,         Greek_gamma ] }; // QWE/Cmk V
+    key <AB05> { [             z,             Z,               U0292,               U01B7 ] }; // QWE/Cmk Z
+    name[Group1]= "English/Intl (Colemak[eD], Curl-DH ergo with Curl-Z)";
+};
+
 // 2012-04-01 OEystein Bech "DreymaR" Gadmar: Mirrored Colemak[eD] for one-handed typing
 // NOTE: For use with the AWide-Slash keyboard mod only, as a second Group with a switch key.
 // 2006-01-01 Shai Coleman, http://colemak.com/
@@ -975,7 +988,7 @@ xkb_symbols "classmate-intl" {
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
 
-    key <KP7>  { [	KP_Home,		KP_7,	
+    key <KP7>  { [	KP_Home,		KP_7,
 			onehalf,		dead_horn	] };
     key <KP8>  { [	KP_Up,			KP_8,
 			threequarters,		dead_ogonek	] };
@@ -1054,7 +1067,7 @@ xkb_symbols "classmate-altgr-intl" {
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
 
-    key <KP7>  { [	KP_Home,		KP_7,	
+    key <KP7>  { [	KP_Home,		KP_7,
 			dead_horn,		dead_horn	] };
     key <KP8>  { [	KP_Up,			KP_8,
 			dead_ogonek,		dead_ogonek	] };
