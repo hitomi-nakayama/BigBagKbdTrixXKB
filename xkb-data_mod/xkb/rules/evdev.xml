@@ -1455,6 +1455,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_dh_curl_z_prog</name>
+            <description>English (Colemak[eD] - edition DreymaR with Curl-Z and Prog)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>tarmak1__e</name>
             <description>English (Tarmak1 - Colemak[eD] transitional)</description>
           </configItem>
