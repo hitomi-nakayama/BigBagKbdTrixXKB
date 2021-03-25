@@ -907,7 +907,6 @@ xkb_symbols "cmk_ed_dh_curl_z" {
 partial alphanumeric_keys
 xkb_symbols "cmk_ed_dh_curl_z_prog" {
     include "us(cmk_ed_dh_curl_z)"
-    include "colemak(cmk_ed_dh)"
     include "prog(prog_sym)"
 
     name[Group1]= "English/Intl (Colemak[eD], Curl-DH ergo with Curl-Z and Programmers Symbols)";
