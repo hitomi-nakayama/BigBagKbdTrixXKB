@@ -307,8 +307,6 @@
   colemak_dh      us: English (Colemak-DH)
   colemak_dh_iso  us: English (Colemak-DH ISO)
   cmk_ed_us       us: English (Colemak[eD] - edition DreymaR)
-  cmk_ed_dh_curl_z       us: English (Colemak[eD] with Curl-Z)
-  cmk_ed_dh_curl_z_prog       us: English (Colemak[eD] with Curl-Z and Prog)
   tarmak1__e      us: English (Tarmak1 - Colemak[eD] transitional)
   tarmak1c_e      us: English (Tarmak1C - Colemak[eD] Curl-DH transitional)
   tarmak2__et     us: English (Tarmak2 - Colemak[eD] transitional)
